@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --dark-blue: #053AE2;
+    --light-blue: #2476ED;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    color: #3D4B60;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #F7F9FE;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #3D4B60;
+}
+
+h1, h2 {
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Utilities */
+.button {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    height: 50px;
+    width: 175px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-cta {
+    color: white;
+    border: none;
+    background: rgb(5,58,226);
+    background: linear-gradient(0deg, rgba(5,58,226,1) 0%, rgba(36,118,237,1) 100%);
+}
+
+.button-alt {
+    background: -webkit-linear-gradient(#2476ED, #053AE2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: solid #053AE2 1px;
+    background-color: transparent;
+}
+
+.callout {
+    background: -webkit-linear-gradient(#2476ED, #053AE2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin-top: 50px;
+}
+
+/* Navbar */
+.navbar {
+    font-weight: 500;
+    font-size: 20px;
+    height: 100px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.logo {
+    margin-right: auto;
+    width: 50px;
+}
+.navbar a {
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.main-nav li a {
+    transition: 0.4s;
+}
+
+.navbar a:hover {
+    color: #053AE2;
+}
+
+.navbar .flex {
+    justify-content: flex-end;
+}
+
+.navbar .cta {
+    font-weight: 600;
+
+}
+
+/* Showcase */
+
+.showcase {
+    height: 400px;
+}
+
+.showcase p {
+    margin: 20px 0 35px 0;
+}
+
+.showcase h1 {
+    font-size: 48px;
+}
+
+.showcase-image img {
+    width: 480px;
+}
+
+.showcase .button-alt {
+    margin-left: 15px;
+}
