@@ -34,6 +34,7 @@ a {
 }
 
 h1, h2 {
+    font-size: 36px;
     font-weight: 700;
     line-height: 1.2;
     margin: 10px 0;
@@ -158,4 +159,57 @@ p {
 
 .showcase .button-alt {
     margin-left: 15px;
+}
+
+/* Carousel */
+
+.carousel {
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.carousel-card {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.carousel-card img {
+    width: 100%;
+    border-bottom: solid 5px #053AE2;
+    display: block;
+}
+
+.carousel-card-title {
+    background: white;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    padding-top: 13px;
+    padding-bottom: 13px;
+
+}
+
+.carousel-card-title h2 {
+    font-size: 20px;
+    margin: 0px 23px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.carousel-card-title p {
+    margin: 0px 23px;
+    color: #053AE2
+}
+
+.carousel-header p {
+    max-width: 750px;
+    margin: 0 auto 50px;
 }
