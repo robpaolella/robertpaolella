@@ -213,3 +213,9 @@ p {
     max-width: 750px;
     margin: 0 auto 50px;
 }
+
+/* Newsletter Banner */
+
+.newsletter-banner img {
+    width: 340px;
+}
