@@ -55,13 +55,6 @@ p {
     cursor: pointer;
 }
 
-.button-cta {
-    color: white;
-    border: none;
-    background: rgb(5,58,226);
-    background: linear-gradient(0deg, rgba(5,58,226,1) 0%, rgba(36,118,237,1) 100%);
-}
-
 .button-alt {
     background: -webkit-linear-gradient(#2476ED, #053AE2);
     background-clip: text;
@@ -69,6 +62,24 @@ p {
     -webkit-text-fill-color: transparent;
     border: solid #053AE2 1px;
     background-color: transparent;
+}
+
+.button-cta {
+    color: white;
+    border: none;
+    background: rgb(5,58,226);
+    background: linear-gradient(0deg, rgba(5,58,226,1) 0%, rgba(36,118,237,1) 100%);
+}
+
+.button-form {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    height: 50px;
+    width: 150px;
+    margin: 0px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
 }
 
 .callout {
@@ -216,6 +227,33 @@ p {
 
 /* Newsletter Banner */
 
+.newsletter input {
+    height: 50px;
+    width: 322px;
+    margin: 0;
+    border: 1px #8FA0B9 solid;
+    border-radius: 5px 0 0 5px;
+}
+
+.newsletter form {
+    display: flex;
+    margin-top: 23px;
+}
+
+.newsletter-banner {
+    margin: auto;
+    margin-top: 150px;
+}
+
 .newsletter-banner img {
     width: 340px;
 }
+
+.newsletter-banner-text {
+    width: 500px;
+}
+
+.newsletter-banner-text p {
+    margin-top: 23px;
+}
+
