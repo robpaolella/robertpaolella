@@ -180,6 +180,14 @@ p {
     text-align: center;
 }
 
+.carousel-blog h1 {
+    margin-bottom: 47px;
+}
+
+.carousel-button {
+    margin-top: 50px;
+}
+
 .carousel-card {
     margin: 0 10px;
     display: flex;
