@@ -294,8 +294,16 @@ color: #3D4B60;
     display: inline;
 }
 
+.footer-legal li:not(:first-child) {
+    margin-left: 13px;
+}
+
 .footer-legal p {
     margin: 0;
+}
+
+#footer-logo {
+    width: 380px;
 }
 
 .footer-nav {
@@ -304,6 +312,17 @@ color: #3D4B60;
 
 .footer-info {
     grid-row: span 2;
+}
+
+#footer-social {
+    margin-top: 17px;
+    justify-content: space-between;
+    width: 340px;
+}
+
+#footer-social i {
+    font-size: 25px;
+    cursor: pointer;
 }
 
 .grid.footer {
